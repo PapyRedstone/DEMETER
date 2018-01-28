@@ -32,7 +32,8 @@
         "#aae097",
         "#45bd7c",
         "#ff6e05",
-        "#41958a"
+        "#41958a",
+        "#394042"
       ]
     },
     "versionFirst": "4.6.1",
@@ -292,16 +293,17 @@
               "z-index": "auto"
             },
             "B": {
-              "color": "#465052"
+              "color": "#ffffff"
             },
             "P": {
               "color": "#efefef"
             },
             "H2": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#ffffff"
             },
             "I": {
-              "color": "#232323"
+              "color": "#ffffff"
             }
           },
           "_name": "slider1",
@@ -319,11 +321,11 @@
           "_params": {
             "slides__autoplay": false,
             "slides__autoplayInterval": 4000,
-            "slides__showBullets": true,
+            "slides__showBullets": false,
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/map-800x484.png",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -351,7 +353,7 @@
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
-                "title": "CONCERVER LE SAVOIR-FAIRE",
+                "title": "CONSERVER LE SAVOIR-FAIRE",
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "..",
@@ -380,7 +382,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-6007-1350x759.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
